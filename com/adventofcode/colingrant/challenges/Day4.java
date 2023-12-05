@@ -17,7 +17,6 @@ public class Day4 implements Challenge
         public String cardName ; 
 
         public Set<Integer> winningNumbers ;
-        public Set<Integer> userNumbers ;
 
         private int count = 1; 
 
@@ -25,7 +24,6 @@ public class Day4 implements Challenge
         {
             this.cardName = cardName;
             this.winningNumbers = winningNumbers;
-            this.userNumbers = userNumbers; 
 
             // Only store matching winning numbers. 
             this.winningNumbers.retainAll(userNumbers);
