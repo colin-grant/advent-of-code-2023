@@ -9,7 +9,7 @@ public class Main
     public static void main(String[] args) 
     {
         // Run one of the challenges.
-        runChallenge(new Day5(), "day5.txt"); 
+        runChallenge(new Day6(), "day6.txt"); 
     }
 
     public static void runChallenge(Challenge challenge, String inputFile)

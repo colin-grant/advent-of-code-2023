@@ -106,7 +106,6 @@ public class Day5 implements Challenge
         boolean isFirst = true ;
         long seedRangeStart = -1 ; 
         long nearestLocation = Long.MAX_VALUE; 
-        int rangeNum = 0 ;
 
         for ( long value : seeds )
         {
